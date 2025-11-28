@@ -291,13 +291,29 @@ export default function Home() {
                 <div className="animate-in fade-in slide-in-from-bottom-8 duration-700 bg-slate-900/80">
 
                   {/* VERDICT HEADER */}
-                  <div className="bg-red-500/10 border-b border-red-500/20 p-8 text-center relative overflow-hidden">
+                  <div
+                    className={`${
+                      resultData.verdict === "true"
+                        ? "bg-green-500/10 border-green-500/20"
+                        : "bg-red-500/10 border-red-500/20"
+                    } border-b p-8 text-center relative overflow-hidden`}
+                  >
                     <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
 
-                    <div className="inline-flex items-center justify-center w-20 h-20 rounded-full 
-                                    bg-red-600 text-white shadow-2xl shadow-red-600/30 mb-4 
-                                    ring-4 ring-red-500/20 scale-110">
-                      <XCircle size={44} />
+                    {/* ICON */}
+                    <div
+                      className={`inline-flex items-center justify-center w-20 h-20 rounded-full mb-4 shadow-2xl ring-4 scale-110
+                        ${
+                          resultData.verdict === "true"
+                            ? "bg-green-600 text-white shadow-green-600/30 ring-green-500/20"
+                            : "bg-red-600 text-white shadow-red-600/30 ring-red-500/20"
+                        }`}
+                    >
+                      {resultData.verdict === "true" ? (
+                        <CheckCircle2 size={44} />
+                      ) : (
+                        <XCircle size={44} />
+                      )}
                     </div>
 
                     <h2 className="text-4xl font-black text-white mb-2 tracking-tight">
@@ -305,12 +321,22 @@ export default function Home() {
                     </h2>
 
                     <div className="flex items-center justify-center gap-2">
-                      <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
-                      <p className="text-red-300 font-medium text-sm tracking-wide">
+                      <span
+                        className={`w-2 h-2 rounded-full animate-pulse ${
+                          resultData.verdict === "true" ? "bg-green-500" : "bg-red-500"
+                        }`}
+                      ></span>
+
+                      <p
+                        className={`font-medium text-sm tracking-wide ${
+                          resultData.verdict === "true" ? "text-green-300" : "text-red-300"
+                        }`}
+                      >
                         CONFIDENCE SCORE: {Math.round(resultData.confidence * 100)}%
                       </p>
                     </div>
                   </div>
+
 
 
                   {/* EXPLANATION TABS (YOUR ORIGINAL STYLE) */}

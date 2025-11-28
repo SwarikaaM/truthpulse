@@ -122,15 +122,6 @@ const Contact = () => {
                       <p className="text-sm text-gray-400">Source Code</p>
                     </div>
                   </Link>
-                  {/* <div className="flex items-start gap-4">
-                     <div className="rounded-lg bg-purple-500/10 p-3 text-purple-400">
-                      <Code2 size={24} />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-white">Sales Inquiry</h4>
-                      <p className="text-sm text-gray-400">sales@nexustech.com</p>
-                    </div>
-                  </div> */}
                 </div>
               </div>
             {/* </div> */}
