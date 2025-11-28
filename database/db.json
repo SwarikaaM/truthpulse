@@ -1,0 +1,179 @@
+{
+  "claims": [
+    {
+      "id": "fc0c",
+      "claim": "hthjhn",
+      "verdict": "true",
+      "confidence": 0.857,
+      "category": "Politics",
+      "explanation": {
+        "general": "Cross-checking official sources and live feeds indicates this claim is inaccurate. Official flight status shows normal operations.",
+        "kids": "It's not true, buddy — flights are running fine!",
+        "elderly": "After verification with official sources, this information appears to be false. There is no need to worry."
+      },
+      "sources": [
+        {
+          "title": "Mumbai Airport RSS",
+          "status": "Contradicts Claim",
+          "time": "Live"
+        },
+        {
+          "title": "NDMA Weather",
+          "status": "No Active Alerts",
+          "time": "Live"
+        }
+      ],
+      "createdAt": "2025-11-26T15:37:44.231Z"
+    },
+    {
+      "id": "bf9f",
+      "claim": "hjsdjgsndm d",
+      "verdict": "false",
+      "confidence": 0.884,
+      "category": "Politics",
+      "explanation": {
+        "general": "Cross-checking official sources and live feeds indicates this claim is inaccurate. Official flight status shows normal operations.",
+        "kids": "It's not true, buddy — flights are running fine!",
+        "elderly": "After verification with official sources, this information appears to be false. There is no need to worry."
+      },
+      "sources": [
+        {
+          "title": "Mumbai Airport RSS",
+          "status": "Contradicts Claim",
+          "time": "Live"
+        },
+        {
+          "title": "NDMA Weather",
+          "status": "No Active Alerts",
+          "time": "Live"
+        }
+      ],
+      "createdAt": "2025-11-26T16:47:21.709Z"
+    },
+    {
+      "id": "7511",
+      "claim": "gkg,\n",
+      "verdict": "false",
+      "confidence": 0.876,
+      "category": "Disaster",
+      "explanation": {
+        "general": "Cross-checking official sources and live feeds indicates this claim is inaccurate. Official flight status shows normal operations.",
+        "kids": "It's not true, buddy — flights are running fine!",
+        "elderly": "After verification with official sources, this information appears to be false. There is no need to worry."
+      },
+      "sources": [
+        {
+          "title": "Mumbai Airport RSS",
+          "status": "Contradicts Claim",
+          "time": "Live"
+        },
+        {
+          "title": "NDMA Weather",
+          "status": "No Active Alerts",
+          "time": "Live"
+        }
+      ],
+      "createdAt": "2025-11-26T16:53:52.423Z"
+    },
+    {
+      "id": "7934",
+      "claim": "gchxfgjh",
+      "verdict": "false",
+      "confidence": 0.911,
+      "category": "Disaster",
+      "explanation": {
+        "general": "Cross-checking official sources and live feeds indicates this claim is inaccurate. Official flight status shows normal operations.",
+        "kids": "It's not true, buddy — flights are running fine!",
+        "elderly": "After verification with official sources, this information appears to be false. There is no need to worry."
+      },
+      "sources": [
+        {
+          "title": "Mumbai Airport RSS",
+          "status": "Contradicts Claim",
+          "time": "Live"
+        },
+        {
+          "title": "NDMA Weather",
+          "status": "No Active Alerts",
+          "time": "Live"
+        }
+      ],
+      "createdAt": "2025-11-26T16:57:16.546Z"
+    },
+    {
+      "id": "2a55",
+      "claim": "ednbn,",
+      "verdict": "true",
+      "confidence": 0.9,
+      "category": "Politics",
+      "explanation": {
+        "general": "Cross-checking official sources suggests the claim is inaccurate.",
+        "kids": "Don't worry buddy! This message looks fake.",
+        "elderly": "After comparison with official sources, this information appears unreliable."
+      },
+      "sources": [
+        {
+          "title": "Mumbai Airport RSS",
+          "status": "Contradicts Claim",
+          "time": "Live"
+        },
+        {
+          "title": "NDMA Weather",
+          "status": "No Active Alerts",
+          "time": "Live"
+        }
+      ],
+      "createdAt": "2025-11-26T17:10:32.227Z"
+    },
+    {
+      "id": "c57d",
+      "claim": "fyuh",
+      "verdict": "false",
+      "confidence": 0.92,
+      "category": "Politics",
+      "explanation": {
+        "general": "Cross-checking official sources suggests the claim is inaccurate.",
+        "kids": "Don't worry buddy! This message looks fake.",
+        "elderly": "After comparison with official sources, this information appears unreliable."
+      },
+      "sources": [
+        {
+          "title": "Mumbai Airport RSS",
+          "status": "Contradicts Claim",
+          "time": "Live"
+        },
+        {
+          "title": "NDMA Weather",
+          "status": "No Active Alerts",
+          "time": "Live"
+        }
+      ],
+      "createdAt": "2025-11-26T17:11:17.715Z"
+    },
+    {
+      "id": "5a49",
+      "claim": "jhaskdukajdk",
+      "verdict": "false",
+      "confidence": 0.82,
+      "category": "Politics",
+      "explanation": {
+        "general": "Cross-checking official sources suggests the claim is inaccurate.",
+        "kids": "Don't worry buddy! This message looks fake.",
+        "elderly": "After comparison with official sources, this information appears unreliable."
+      },
+      "sources": [
+        {
+          "title": "Mumbai Airport RSS",
+          "status": "Contradicts Claim",
+          "time": "Live"
+        },
+        {
+          "title": "NDMA Weather",
+          "status": "No Active Alerts",
+          "time": "Live"
+        }
+      ],
+      "createdAt": "2025-11-27T10:12:02.172Z"
+    }
+  ]
+}
